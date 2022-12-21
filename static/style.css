@@ -1,0 +1,42 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+  /* transform: translateY(-85%); */
+}
+
+.container h1 {
+  color: yellow;
+}
+
+.storyform {
+  margin-left: 0.1rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  font-family: inherit;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 1.3rem;
+  border: 0;
+}
